@@ -8,6 +8,7 @@ interface HeaderProps {
 
 const Header = ({ scrollToSection }: HeaderProps) => {
   const navItems = [
+    { label: "Бидний тухай", action: () => scrollToSection?.("about") },
     { label: "Нэвтрэх", action: () => scrollToSection?.("contact") },
     { label: "Бүртгүүлэх", action: () => scrollToSection?.("contact") },
   ];

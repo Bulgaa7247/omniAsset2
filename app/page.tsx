@@ -5,6 +5,7 @@ import { HeroSection } from "./_components/sections/heroSection";
 import KeyMetricsSection from "./_components/sections/productSection";
 import FeaturesSection from "./_components/sections/featuresSection";
 import HowItWorksSection from "./_components/sections/howItWorksSection";
+import AboutSection from "./_components/sections/aboutSection";
 import FooterSection from "./_components/sections/footerSection";
 
 const LandingPage = () => {
@@ -106,6 +107,7 @@ const LandingPage = () => {
       />
       <FeaturesSection features={feature} scrollVariants={scrollVariants} />
       <HowItWorksSection scrollVariants={scrollVariants} />
+      <AboutSection scrollVariants={scrollVariants} />
       <FooterSection scrollVariants={scrollVariants} />
     </div>
   );
